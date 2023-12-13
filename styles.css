@@ -1,0 +1,67 @@
+#management {
+    /* background-repeat: no-repeat; */
+    /* background-size: 100%; */
+    display: flex;
+}
+.task-ready, .in-progreess, .needs-review, .done, .blue, .green, .pink {
+    height: 180px;
+    width: 240px;
+}
+.task-ready, .in-progress, .needs-review, .done {
+    margin: 20px;
+    padding: 8px;
+}
+
+.pink {
+    background-color: pink;
+    /* opacity: 0.7; */
+}
+.green {
+    background-color: greenyellow;
+}
+.blue {
+    background-color: cyan;
+}
+h3 {
+    padding-left: 20px;
+}
+
+.menu {
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.3uHHNCVOuYpFAgF1-8qBQgHaHa&pid=Api&P=0&h=180');
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    border: 1px solid #ccc;
+}
+.menu-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea {
+
+}
+
+.date {
+    
+}
+
+.task {
+    background-color: whitesmoke;
+    border-radius: 50%;
+    width: 40%;
+    text-align: center;
+}
+
+input[type="date"] {
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://wallpaperaccess.com/full/5137780.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
